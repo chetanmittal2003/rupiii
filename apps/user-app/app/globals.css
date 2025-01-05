@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  font-family: 'Inter', sans-serif;
+  color: #343a40;
+}

@@ -333,3 +333,9 @@
 .button:focus {
   background-color: #e5e4e2;
 }
+
+@media (max-width: 768px) {
+  .main {
+    padding: 2rem;
+  }
+}
