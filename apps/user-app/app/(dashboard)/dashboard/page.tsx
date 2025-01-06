@@ -9,7 +9,7 @@ export default function HomePage() {
             <header className="text-center mb-10 mt-10">
                 <h1 className="text-5xl font-bold text-[#6a51a6]">Welcome to FinTech App</h1>
                 <p className="mt-4 mb-10 text-lg text-gray-600">Your one-stop solution for managing finances.</p>
-                <Button className="mb-10" onClick={() => alert("Get Started")}>Get Started</Button>
+                <Button onClick={() => alert("Get Started")}>Get Started</Button>
             </header>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl px-4 mb-10">
@@ -52,7 +52,7 @@ export default function HomePage() {
                 <div className="flex flex-col items-center">
                     <h3 className="text-xl font-bold">Join Us Today!</h3>
                     <p className="mt-2">Take control of your finances with our innovative solutions.</p>
-                    <Button className="mt-4" onClick={() => alert("Sign Up")}>Sign Up</Button>
+                    <Button onClick={() => alert("Sign Up")}>Sign Up</Button>
                 </div>
                 <div className="mt-4 text-sm">
                     <p>© 2024 Rupii. All rights reserved.</p>
